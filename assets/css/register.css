@@ -1,0 +1,144 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%
+}
+#background {
+  background-color: #000;
+  background-image: url(../images/bg3.jpg);
+  background-position: center;
+  background-size: cover;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition-delay: 9999s;
+    -webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
+    border: 0;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+#loginContainer *{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:normal;
+  line-height:1em;
+  box-sizing:border-box;
+}
+#loginContainer{
+  width:80%;
+  margin:0 auto;
+  position:relative;
+  max-width: 1024px;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #fff;
+}
+#inputContainer {
+    width: 400px;
+    padding: 45px;
+    float: left;
+    border-right: 1px solid #BDBDBD;
+}
+#inputContainer h2{
+  text-align:center
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"]{
+  display: block;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  height: 26px;
+  line-height: 27px;
+  width: 100%;
+  font-size: large;
+}
+#inputContainer label{
+  color: #E0E0E0;
+  font-size: 18px;
+  margin-top: 15px;
+  display: block;
+}
+#inputContainer button{
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 250px;
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin: 20px auto;
+  height: 41px;
+  width: 100%;
+}
+#inputContainer button{
+  cursor: pointer;
+}
+.hasAccountText span{
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+}
+.hasAccountText{
+  text-align: center;
+}
+
+#registerForm, #loginForm{
+  display: none;
+}
+#loginText{
+  padding: 45px;
+  display: table-cell;
+}
+#loginText h1{
+  color: #07d159;
+  font-size: 60px;
+  font-weight: bold;
+}
+#loginText h2{
+  margin: 35px 0;
+}
+#loginText ul{
+  padding: 0;
+}
+#loginText li{
+  font-size: 18px;
+  list-style-type: none;
+  padding: 5px 30px;
+  background: url("../images/icons/mark.png") no-repeat;
+  background-size: 25px;
+}
+#inputContainer .errorMessage{
+  color: #07d159;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
