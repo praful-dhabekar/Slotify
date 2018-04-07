@@ -20,7 +20,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Welcome to Slotify!</title>
+    <title>Slotify Web Player</title>
     <link rel="icon" type="image/png" href="assets/images/icons/spotify.png"/>
     <link rel="stylesheet" href="assets\css\register.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
